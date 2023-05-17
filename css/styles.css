@@ -1,3 +1,14 @@
+body{
+    background-color: ghostwhite;
+    color: #fff;
+    margin: 0px;
+}
+
 .title{
     background-color: green;
+    color: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
 }
