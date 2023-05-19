@@ -7,10 +7,17 @@ body{
     color: #fff;
     margin: 0px;
 }
+.header{
+    background-color: lightseagreen;
+    height: 80px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 
 .title{
-    background-color: green;
+    /* background-color: green; */
     color: inherit;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
