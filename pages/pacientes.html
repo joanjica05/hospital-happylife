@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro-Pacientes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles-list.css">
+    <title>Pacientes</title>
 </head>
 <body>
-    <h1>Registro Pacientes</h1>
+    <header class="main-menu">
+        <h1>Pacientes Happy-Life</h1>
+    </header>
+
+    <div class="boton-title">
+        <input type="button" class="btn-Nuevo" id="btnNuevo" value="Nuevo">
+        <input type="button" class="btn-Buscar" id="btnNuevo" value="Buscar">
+    </div>
+
+    <table class="table-pacientes">
+        <caption class="title-table">LISTADO DE PACIENTES</caption>
+            <colgroup>
+                <col span="7">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Nombre Paciente</th>
+                    <th>Apellido Paciente</th>
+                    <th>Numero de Cédula</th>
+                    <th>Edad</th>
+                    <th>Teléfono</th>
+                    <th>Especialidad Requerida</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Anderson</td>
+                    <td>Jimenez Cantor</td>
+                    <td>80819922</td>
+                    <td>38</td>
+                    <td>636986556</td>
+                    <td>Rehabilitación Fisica</td>
+                    <td>
+                        <input type="button" id="btnEditar" value="Editar" class="button-Editar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Karen</td>
+                    <td>Cuitiva Cuchimaque</td>
+                    <td>53055257</td>
+                    <td>38</td>
+                    <td>3164845454</td>
+                    <td>Medicina interna</td>
+                    <td>
+                        <input type="button" id="btnEditar" value="Editar" class="button-Editar">
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+
 </body>
 </html>

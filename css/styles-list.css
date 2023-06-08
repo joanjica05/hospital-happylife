@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    color: #333;
+    margin: 0px;
+    font-family: sans-serif;
+    /* padding: 90px 20px 0; */
+}
+
+.main-menu{
+    background-color: lightseagreen;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    display: flex;
+}
+
+
+.table-pacientes{
+    font-family: sans-serif;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-table{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+th,td {
+    color: #333;
+    border: 2px solid lightseagreen;
+    padding: .5rem;
+}
+
+tr:nth-child(4) td:nth-child(2){
+    background-color: lightgreen;
+    letter-spacing: 90px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+th,tfoot{
+    background-color: lightgreen;
+}
+
+.button-Editar{
+    background-color: orange;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-Nuevo{
+    background-color: darkcyan;
+    border: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-Nuevo:hover{
+    background-color: rgb(9, 105, 105);
+}
+
+.btn-Buscar{
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
