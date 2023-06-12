@@ -1,7 +1,8 @@
-const toggleMenuElement = document.getElementById('toggle-menu');
-const mainMenuElement = document.getElementById('main-menu');
+// const toggleMenuElement = document.getElementById('toggle-menu');
+// const mainMenuElement = document.getElementById('main-menu');
 
-toggleMenuElement.addEventListener('click', () => {
-    mainMenuElement.classList.toggle('main-menu--show')
-});
+// toggleMenuElement.addEventListener('click', () => {
+//     mainMenuElement.classList.toggle('main-menu--show')
+// });
+
 

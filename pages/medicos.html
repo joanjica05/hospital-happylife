@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Registro-Medicos</title>
 </head>
 <body>
-    <h1>Medicos</h1>
+    <header class="main-menu">
+        <h1>Medicos Happy-Life</h1>
+    </header>
+
+    <main class="tabla-container">
+        <div class="boton-title">
+            <a href="/pages/form-medicos.html" class="btn-Nuevo">Nuevo Registro</a>
+            <!-- <button class="btn-Buscar">Buscar</button> -->
+        </div>
+
+        <table id= "tabla-medicos" class="table-pacientes">
+            <caption class="title-table">LISTADO DE MEDICOS</caption>
+                <colgroup>
+                    <col span="7">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Nombre Medico</th>
+                        <th>Apellido Medico</th>
+                        <th>Numero de Cédula</th>
+                        <th>Numero Consultorio</th>
+                        <th>Telefono</th>
+                        <th>Correo Contacto</th>
+                        <th>Especialidad Requerida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--  -->
+                </tbody>
+        </table>
+        <div class="boton-container">
+            <input type="button" id="botonVolver" value="Volver">
+        </div>
+    </main>
+    <script src="/js/volver.js"></script>
+    <script src="/js/medicos.js"></script>
 </body>
 </html>

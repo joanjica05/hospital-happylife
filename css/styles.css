@@ -19,8 +19,29 @@ body{
     left: 0;
 } */
 
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+}
+
 img{
     max-width: 100%;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .toggle-menu{
@@ -46,7 +67,7 @@ img{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 5px;
-
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,10 +103,20 @@ img{
     text-decoration: none;
 }
 
-.main-nav{
+/* .main-nav{
     background-color: lightsteelblue;
-}
+} */
 
 /* .table-pacientes{
     margin-top: 50px;
 } */
+
+.listado-servicios a {
+    text-decoration: none;
+    color: #3e8e41;
+    font-size: 30px;
+}
+
+.listado-servicios li::marker {
+    content: 🐾;
+}
